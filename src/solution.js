@@ -9,7 +9,7 @@
 */
 
 function calculateCartTotal(cart) {
-let result = 0 ;
+let result = 1 ;
 for (let items in cart){
   result += cart[items].priceInCents * cart[items].quantity;
 }
